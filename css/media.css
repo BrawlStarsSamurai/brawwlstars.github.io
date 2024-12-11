@@ -1,0 +1,43 @@
+@media (max-width: 575px) {
+    
+    .btn-open-br {
+        max-width: 278px;
+    }
+    
+    .battons-down-app {
+        display: flex;
+        flex-direction: column;
+    }
+
+        .battons-down-app__btn:first-child {
+            margin-bottom: 18px;
+            margin-right: 0;
+        }
+        
+
+        .battons-down-app__btn img {
+            max-width: 200px;
+            height: 60px;
+        }
+
+
+    .footer-sub-line {
+        flex-direction: column;
+    }
+
+    .logo-sub-link {
+        flex-direction: column;
+    }
+
+    .logo-sub-link span {
+        margin-top: 20px;
+    }
+
+    .footer-links-icons {
+        display: flex;
+        justify-content: center;
+
+        margin-top: 20px;
+    }
+
+}
