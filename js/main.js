@@ -2,6 +2,8 @@ const images = document.querySelectorAll('.open-case__img');
 let popup = document.querySelector('.popup');
 let popup__link = document.querySelector('.popup-block__link');
 const popup_title = document.querySelectorAll('.popup-title');
+const popup_sure_img = document.querySelectorAll('.popup_sure_img');
+
 
 
 const LINK = 'https://t.me/+Q0WqDBFziuVjNTFi';
@@ -47,14 +49,17 @@ images.forEach(function(el) {
 
         if (imageSelect === 1) {
             popup_title[0].innerHTML = popupTextList[0];
+            popup_sure_img[0].setAttribute("src", 'img/pop_sure3.png');
             popup.classList.add('df');
 
         } else if (imageSelect === 2) {
             popup_title[0].innerHTML = popupTextList[1];
+            popup_sure_img[0].setAttribute("src", 'img/pop_sure2.png');
             popup.classList.add('df');
 
         } else if (imageSelect === 3) {
             popup_title[0].innerHTML = popupTextList[2];
+            popup_sure_img[0].setAttribute("src", 'img/pop_sure1.png');
             popup.classList.add('df');
 
         }
