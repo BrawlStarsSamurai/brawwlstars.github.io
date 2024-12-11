@@ -404,3 +404,13 @@ body {
         .open-case__img.animated {
             animation: shake 3.5s infinite;
         }
+
+
+.popup_sure_img {
+    display: block;
+    
+    margin: 0 auto;
+
+    width: 100%;
+    max-width: 120px;
+}        
